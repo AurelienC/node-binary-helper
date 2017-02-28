@@ -2,9 +2,9 @@
   "name": "binary-helper",
   "version": "1.1.1",
   "description": "Helper with several functions working to bits (BCD, chars, LSB, MSB, ...)",
-  "main": "index.js",
+  "main": "lib/binary-helper",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
