@@ -4,7 +4,7 @@
   "description": "Helper with several functions working to bits (BCD, chars, LSB, MSB, ...)",
   "main": "lib/binary-helper",
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
