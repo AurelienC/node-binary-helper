@@ -22,4 +22,4 @@ describe('binary helper', () => {
     var r = bh.charArrayToString([12609, 49]);
     expect(r).to.eql('A11');
   });
-})
+});
