@@ -1,3 +1,5 @@
+
+
 exports.getLeftBCD = (aabb) => {
   return aa = Math.trunc(aabb/100);
 }
@@ -11,7 +13,7 @@ exports.addLsbMsb = (lsb, msb) => {
 }
 
 exports.charArrayToString = (arr) => {
-  let str = '';
+  var str = '';
   arr.forEach((curr) => {
     if ((curr & 0x00FF) != 0) str = str + String.fromCharCode(curr & 0x00FF);
     if ((curr >> 8) !=0)  str = str + String.fromCharCode(curr >> 8);
